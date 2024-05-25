@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMCRC</title>
+    <link rel="icon" type="image/x-icon" href="ucrc-logo.png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: white;
+            border-bottom: 2px solid #8B0000;
+        }
+        .header .logo {
+            display: flex;
+            align-items: center;
+        }
+        .header .logo img {
+            width: 100px;
+            height: auto;
+        }
+        .header .logo h1 {
+            margin: 0;
+            margin-left: 20px;
+            font-size: 24px;
+            color: #2F4F4F;
+        }
+        .header .tagline h2 {
+            margin: 0;
+            font-size: 18px;
+            color: #2F4F4F;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            background-color: #8B0000;
+            padding: 10px 0;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 18px;
+            margin-left: 20px;
+        }
+        .navbar a:hover {
+            background-color: #ffffff;
+            color:#8B0000;
+        }
+        .navbar .active {
+            background-color: #fff;
+            color: #8B0000;
+            font-weight: bold;
+        }
+        .mission-images{    
+            top: 100px;
+            left: 100px;
+            width:387px;
+            height: 384px;
+            
+        }
+        .mission-image{    
+            margin: 0 30px 0 0;
+            top: 100px;
+            right: 100px;
+           
+        }
+        .mission-image img{    
+           width: 100%;
+           height:auto;
+           
+        }
+        .mission-images img {
+            width: 100%;
+            height: auto;
+        }
+        .mission-section {
+            display: flex;
+            align-items: flex-start;
+            padding: 70px;
+            
+        }
+        .mission-banner{
+            width: 100%;
+            height: auto;
+        }
+        .mission-content {
+            max-width: 600px;
+            
+        }
+        .mission-content h2 {
+            color: #2F4F4F;
+            font-size: 28px;
+            margin-bottom: 20px;
+            align-content: center;
+        }
+        .mission-content p {
+            color: #555;
+            line-height: 1.6;
+            font-size: 16px;
+            align-content: center;
+        }
+        .footer {
+            background-color: #2f2f2f;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .footer .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .footer .column {
+            flex: 1;
+            min-width: 200px;
+            margin: 20px;
+        }
+        .footer .column h3 {
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .footer .column a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+        .footer .column a:hover {
+            color: #fff;
+        }
+        .footer .contact {
+            margin-top: 20px;
+        }
+        .footer .contact p {
+            margin: 10px 0;
+        }
+        .footer .certification {
+            margin: 20px 0;
+        }
+        .footer .certification img {
+            max-width: 100%;
+        }
+        .footer .credit {
+            border-top: 1px solid #444;
+            padding-top: 10px;
+            margin-top: 20px;
+        }
+        .container {
+        position: relative;
+        height: 400px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="ucrc-logo.png" alt="Rocky Mountain CRC Logo">
+            <h1>Rocky Mountain CRC</h1>
+        </div>
+        <div class="tagline">
+            <h2>Your Affordable Housing Lender</h2>
+        </div>
+    </header>
+    <nav class="navbar">
+        <a class="nav-link" href="#Home">Home</a>
+        <a class="nav-link" href="#About US">About Us</a>
+        <a class="nav-link" href="#Lending">Lending</a>
+        <a class="nav-link" href="#Membership">Membership</a>
+        <a class="nav-link" href="#Resources">Resources</a>
+    </nav>  
+    <div class="mission-banner">
+        <img src="img6.jpg" width="1700" height="300">
+    </div>
+    <section class="mission-section">
+            <div class="mission-images">
+                <img src="mission01.png"  >
+            </div>
+            <div class="mission-content">
+                <h2>Mission</h2>
+                <p>Through sustainable direct lending, technical assistance and community collaboration, Rocky Mountain Community Reinvestment Corporation (RMCRC) will facilitate the development and preservation of safe and clean affordable housing and community facilities that serve low-to moderate-income individuals, families and underserved communities throughout the Rocky Mountain region.</p>
+            </div>
+        </div>
+    </section>
+    <section class="mission-section">
+        <div class="mission-content">
+            <h2>Vision</h2>
+            <p> Working closely with our community partners, RMCRC seeks to eradicate the severe shortage of affordable housing that exists throughout the Rocky Mountain region.</p>
+        </div>
+            <div class="mission-image">
+                <img src="mission02.png">
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="column">
+                <h3>Company</h3>
+                <a href="#">Home</a>
+                <a href="#">Board of Directors</a>
+                <a href="#">Management</a>
+                <a href="#">Annual Report</a>
+                <a href="#">Financial Statements</a>
+                <a href="#">Mission</a>
+            </div>
+            <div class="column">
+                <h3>Loan Information</h3>
+                <a href="#">Loan File Review</a>
+                <a href="#">Products</a>
+                <a href="#">Lending Team</a>
+                <a href="#">Membership</a>
+                <a href="#">How to Join</a>
+            </div>
+            <div class="column">
+                <h3>Resources</h3>
+                <a href="#">Current Members</a>
+                <a href="#">Useful Links</a>
+                <a href="#">Affordability Requirements</a>
+                <a href="#">Market Information</a>
+            </div>
+        </div>
+        <div class="contact">
+            <p>PHONE: 801-366-0400 | EMAIL: lending@rmcrc.org | FAX: 801-366-0402</p>
+            <p>ADDRESS: 64 E. Winchester Street, Suite 230, Salt Lake City, Utah 84107</p>
+        </div>
+        <div class="certification">
+            <img src="Certified-logo1.jpg" alt="Certified CDFI">
+        </div>
+        <div class="credit">
+            <p>Powered By Zibtek</p>
+            <p>© 2019 Rocky Mountain Community Reinvestment Corporation</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
